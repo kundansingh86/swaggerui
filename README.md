@@ -1,13 +1,13 @@
 # Swagger UI HTML
 HTML page having embed Swagger UI's code directly by using unpkg's interface
 
-## Instruction to use
+## Instructions to Use
 
-Just copy and paste this file to your project directory and set the URL of your swagger JSON in the code below: 
+Just copy and paste this file to your project directory and set the URL of your swagger JSON in the file below: 
 
 ```js
   SwaggerUIBundle({
-    url: "Path of Swagger JSON file",
+    url: url: "https://petstore.swagger.io/v2/swagger.json", // <- Change Path Here
     dom_id: '#swagger-ui',
     presets: [
       SwaggerUIBundle.presets.apis,
