@@ -13,7 +13,7 @@ Just copy and paste this file to your project directory and set the URL of your 
       SwaggerUIBundle.presets.apis,
       SwaggerUIBundle.SwaggerUIStandalonePreset
     ],
-    layout: "StandaloneLayout"
+    layout: "StandaloneLayout" 
   })
 ```
 Once added, you should be able to browse the following Swagger UI endpoints respectively:
