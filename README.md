@@ -7,7 +7,7 @@ Just copy and paste this file to your project directory and set the URL of your 
 
 ```js
   SwaggerUIBundle({
-    url: url: "https://petstore.swagger.io/v2/swagger.json", // <- Change Path Here
+    url: "https://petstore.swagger.io/v2/swagger.json", // <- Change Path Here
     dom_id: '#swagger-ui',
     presets: [
       SwaggerUIBundle.presets.apis,
